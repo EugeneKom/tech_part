@@ -46,7 +46,7 @@ const Cards = () => {
         <UserCard page={page} cards={cards} />
       </div>
       <LoadMoreBtn cards={cards} incrementPage={incrementPage} />
-      <Link to="/">to home page</Link>
+      {/* <Link to="/">to home page</Link> */}
     </>
   );
 };

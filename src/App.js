@@ -4,11 +4,12 @@ import { Cards, HomePage } from "./Pages/index";
 export const App = () => {
   return (
     <>
-      <Routes>
+      <Cards />
+      {/* <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/tweets" element={<Cards />} />
         <Route path="*" element={<HomePage />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 };
