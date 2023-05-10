@@ -4,7 +4,7 @@ const HomePage = () => {
   return (
     <>
       <h1>Home page</h1>
-      {/* <Link to="/tweets">to cards</Link> */}
+      <Link to="/tweets">to cards</Link>
     </>
   );
 };
